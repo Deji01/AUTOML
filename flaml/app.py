@@ -1,4 +1,4 @@
-from flaml import AUTOML
+from flaml import AutoML
 from sklearn.datasets import load_iris
 automl = AUTOML()
 # Specify automl goal and constraint
