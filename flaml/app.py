@@ -1,6 +1,6 @@
 from flaml import AutoML
 from sklearn.datasets import load_iris
-automl = AUTOML()
+automl = AutoML()
 # Specify automl goal and constraint
 automl_settings = {
 "time_budget": 10, # in seconds
